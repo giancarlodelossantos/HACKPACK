@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_received_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Received Documents" />
+        <item
+            android:id="@+id/nav_approved_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Approved Documents" />
+        <item
+            android:id="@+id/nav_salaryloan_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Salary Loan Applications" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+
+            <item android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>
